@@ -1,0 +1,24 @@
+{
+  "name": "workshop-nodejs",
+  "version": "1.0.0",
+  "description": "Workshop NodeJS MonteríaJS",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jfbaquerocelis/workshop-nodejs.git"
+  },
+  "keywords": [
+    "workshop",
+    "nodejs",
+    "monteriajs"
+  ],
+  "author": "John Fredy Baquero Celis <jfbaquerocelis@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jfbaquerocelis/workshop-nodejs/issues"
+  },
+  "homepage": "https://github.com/jfbaquerocelis/workshop-nodejs#readme"
+}
