@@ -1,9 +1,12 @@
 const http = require('http')
 const port = 3000
 
-const server = http.createServer(onRequest)
+const server = http.createServer()
 
-server.listen(port, onListening)
+server.on('request', onRequest)
+server.on('listening', onListening)
+
+server.listen(port)
 
 function onRequest(req, res){
 	res.end('Hola MonteriaJS')
