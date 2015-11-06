@@ -1,4 +1,7 @@
+'use strict'
+
 const http = require('http')
+const fs = require('fs')
 const port = 3000
 
 const server = http.createServer()
@@ -9,7 +12,8 @@ server.on('listening', onListening)
 server.listen(port)
 
 function onRequest(req, res){
-	res.end('Hola MonteriaJS')
+	let index = fs.readFileSync('public/index.html')
+	res.end(index)
 }
 
 function onListening(){
