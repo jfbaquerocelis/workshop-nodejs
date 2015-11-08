@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/jfbaquerocelis/workshop-nodejs/issues"
   },
-  "homepage": "https://github.com/jfbaquerocelis/workshop-nodejs#readme"
+  "homepage": "https://github.com/jfbaquerocelis/workshop-nodejs#readme",
+  "dependencies": {
+    "st": "^1.0.0"
+  }
 }

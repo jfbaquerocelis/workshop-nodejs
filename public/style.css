@@ -1,0 +1,35 @@
+body{
+	margin: 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	font-family: 'Trebuchet MS';
+	background-color: #5cc6d0;
+	font-size: 20px;
+}
+
+.content-info{
+	text-align: center;
+	background-color: white;
+	border: 3px dotted #5cc6d0;
+	padding: 20px 10px 30px;
+	width: 60%;
+}
+.info{
+	color: #212121;
+	margin: 0;
+	font-size: 4rem;
+}
+.aniversary{
+	background-color: #ef5152;
+	border: 0;
+	border-bottom: 4px solid #cd3030;
+	color: white;
+	cursor: pointer;
+	font-size: 1rem;
+	margin: 10px 0 0;
+	outline: 0;
+	padding: 15px 10px;
+}
