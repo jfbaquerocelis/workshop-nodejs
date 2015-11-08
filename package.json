@@ -22,6 +22,7 @@
   },
   "homepage": "https://github.com/jfbaquerocelis/workshop-nodejs#readme",
   "dependencies": {
+    "router": "^1.1.3",
     "st": "^1.0.0"
   }
 }
